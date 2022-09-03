@@ -12,7 +12,7 @@ int main()
 	v[0]=v[1]=0;
 	for(long long int i=2;i*i<=N;i++ ){
 		if(v[i]){
-			for(long long int j=i;j<=N/i;j++){
+			for(long long int j=i;i*j<=N;j++){
 				v[i*j]=0;
 			}
 		}
