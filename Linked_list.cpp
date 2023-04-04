@@ -8,6 +8,7 @@ class node{
 	node(int val){
 		data = val;
 		next = NULL;
+		
 	}
 };
 void insertAtStart(node* &head, int val){
