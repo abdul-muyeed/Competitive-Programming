@@ -46,6 +46,7 @@ int main(){
 		insertAtEnd(head, num);
 	}
 	display(head);
+	
 	insertAtStart(head,1000);
 	display(head);
 	return 0;
