@@ -12,7 +12,7 @@ class node{
 	}
 };
 void insertAtStart(node* &head, int val){
-	node* n = new node(val);
+	node* n = new node(val)
 	n->next = head;
 	head = n;
 }
