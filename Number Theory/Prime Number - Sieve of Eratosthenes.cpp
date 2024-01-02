@@ -21,7 +21,7 @@ int main()
 
 	for(long long int i=1;i<=n;i++){
 		if(v[i]){
-			cout<<i<<endl; // prints prime numbers from 2 to n
+			cout<<i<<endl;  // prints prime numbers from 2 to n
 		}
 	}
 
