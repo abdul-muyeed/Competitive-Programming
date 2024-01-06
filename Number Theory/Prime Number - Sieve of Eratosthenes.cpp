@@ -3,7 +3,7 @@ using namespace std;
 long long int N=1e6;
 
 
-// This a code of Sieve of Eratosthenes
+//  This a code of Sieve of Eratosthenes
 
 
 int main()
